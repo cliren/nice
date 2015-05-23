@@ -1,2 +1,2 @@
 # nice
-angular mobile ui startup app
+Angular es6 quick start app. 
