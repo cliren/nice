@@ -11,6 +11,7 @@
     "mobile-angular-ui": "1.2.x",
     "font-awesome": "4.2",
     "bootstrap": "3.x",
-    "roboto-fontface": "~0.1.5"
+    "roboto-fontface": "~0.1.5",
+    "satellizer": "~0.10.1"
   }
 }

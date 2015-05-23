@@ -4,10 +4,12 @@
 
 import './components/Components';
 import './router/Router';
+import './auth/Auth';
 
 let deps = [
-    'Router',
-    'I12Components'
+  'Auth',
+  'Router',
+  'I12Components'
 ];
 
 angular.module('I12Core', deps);

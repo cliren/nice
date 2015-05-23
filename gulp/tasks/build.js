@@ -7,7 +7,6 @@ gulp.task('build', function(cb) {
       'clean'
     ],
     'webpack',
-    'images',
     'mocks',
     'markup',
     'libs',

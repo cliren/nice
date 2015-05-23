@@ -13,6 +13,9 @@ angular.module('Router', deps)
       .when('/', {
         templateUrl: 'js/components/home/home.html'
       })
+      .when('/login', {
+        templateUrl: 'js/auth/login.html'
+      })
       .otherwise({
         redirectTo: '/'
       });
