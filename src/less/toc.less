@@ -1,0 +1,66 @@
+.sidebar-container {
+  position: relative;
+  .sidebar {
+    &.affix, &.affix.affix-bottom {
+      position: static;
+    }
+    &.affix-top {
+      position: static;
+    }
+    &.affix-bottom {
+      position: static;
+    }
+    @media(min-width: @screen-md-min){
+      &.affix, &.affix.affix-bottom {
+        position: fixed;
+        top: 0;
+      }
+      &.affix-top {
+        position: static;
+      }
+      &.affix-bottom {
+        position: absolute;
+      }
+    }
+  }
+}
+
+.toc {
+  margin-top: @line-height-computed;
+  margin-bottom: @line-height-computed;
+  padding-top: @line-height-computed / 2;
+  padding-bottom: @line-height-computed / 2;
+  li.toc3 {
+    padding-left: 20px;
+  }
+  ul {
+    padding-left: 20px;
+    @media (min-width: @screen-sm) {
+      display: none;
+    }
+  }
+  li > a {
+    display: block;
+    color: @brand-primary;
+    padding: 5px 20px;
+    border-right: 1px solid #eee;
+    line-height: 1.1;
+    margin-bottom: 5px;
+    &:hover, &:focus {
+      text-decoration: none;
+      background-color: #e8ebee;
+      border-right: 1px solid #d8dde2;
+    }
+  }
+
+  &>.active > ul {
+    display: block;
+  }
+
+  .active > a, .toc .active:hover > a, .toc .active:focus > a {
+    font-weight: bold;
+    color: #1d365d;
+    background-color: transparent;
+    border-right: 1px solid #1d365d;
+  }
+}
