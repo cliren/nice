@@ -1,0 +1,16 @@
+{
+  "name": "nice",
+  "version": "1.0.0",
+  "author": "Cliren",
+  "contributors": [],
+  "description": "angular mobile ui startup app",
+  "private": true,
+  "dependencies": {
+    "angular": "1.x",
+    "angular-route": "1.x",
+    "mobile-angular-ui": "1.2.x",
+    "font-awesome": "4.2",
+    "bootstrap": "3.x",
+    "roboto-fontface": "~0.1.5"
+  }
+}
