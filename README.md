@@ -1,2 +1,2 @@
 # nice
-angular es6 quick start app. 
+Angular es6 quick start app. 
